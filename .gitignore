@@ -1,0 +1,63 @@
+# 输出目录 + 运行日志
+meipian-export/
+meipian-export-*.log
+*.log
+
+# 本地草稿/笔记
+*briefing*.md
+*draft*.md
+NOTES.md
+notes.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+
+# 编辑器 / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Playwright 浏览器（用户自己装，不进仓库）
+ms-playwright/
+
+# 临时文件
+*.part
+*.tmp
+
+# pytest / coverage（如果将来加测试）
+.pytest_cache/
+.coverage
+htmlcov/
