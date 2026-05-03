@@ -1,6 +1,5 @@
 # 输出目录 + 运行日志
-meipian-export/
-meipian-export-*.log
+meipian-export*/
 *.log
 
 # 本地草稿/笔记
